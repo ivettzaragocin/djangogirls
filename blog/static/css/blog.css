@@ -1,6 +1,71 @@
-h1 a, h2 a {
-     color: #eb79d4;
-}
 body {
-    padding-left: 15px;
+    background-color: #FFF5F7; /* Fondo general un rosa muy clarito y dulce */
+}
+
+.page-header {
+    background-color: #F8BBD0; /* Rosa pastel para la cabecera */
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    border-bottom: 5px solid #F48FB1; /* Una línea un poco más oscura debajo */
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 38pt;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1); /* Sombrepita sutil para resaltar el texto blanco */
+}
+
+.content {
+    margin-left: 40px;
+    background-color: #ffffff; /* Fondo blanco para la zona de los posts */
+    padding: 30px;
+    border-radius: 15px; /* Bordes redondeados súper bonitos */
+    box-shadow: 0px 4px 15px rgba(244, 143, 177, 0.25); /* Sombreado color rosa */
+    margin-top: 30px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #F06292; /* Fecha en un rosa un poco más brillante */
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 50px;
+    border-bottom: 2px dashed #F8BBD0; /* Línea de puntos rosa separando los posts */
+    padding-bottom: 20px;
+}
+
+.post:last-child {
+    border-bottom: none; /* Quitamos la línea en el último post */
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #D81B60; /* Títulos en rosa oscuro/magenta para buena legibilidad */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.post h2 a:hover {
+    color: #F48FB1; /* Al pasar el ratón se vuelve pastel */
 }
